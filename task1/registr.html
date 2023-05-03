@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <style>
+      * {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(241, 236, 236);
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <h1><u>Registration form</u></h1>
+    </div>
+    <div>
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname" />
+      <div>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" />
+      </div>
+      <div>
+        <label for="nickname">Nick Name</label>
+        <input type="text" name="nickname" id="nickname" />
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <div>
+          <label for="dateofbirth">Date of Bith</label>
+          <input type="text" name="dateofbirth" id="dateofbirth" />
+          <div>
+            <div>
+              <label for="gender">Gender</label>
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="others" value="others" />
+              <label for="others">others</label>
+            </div>
+          </div>
+          <div>
+            <label for="mobile">Mobile</label>
+            <input type="tel" name="mobile" id="mobile" />
+          </div>
+          <div>
+            <label for="adress">Adress</label>
+            <textarea name="adress" id="adress" cols="20" rows="5"></textarea>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
