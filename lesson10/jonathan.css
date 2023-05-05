@@ -1,0 +1,32 @@
+.jonathan {
+  color: white;
+  background-color: gray;
+  border-radius: 20px;
+  padding: 15px;
+  position: absolute;
+  left: 57%;
+  right: 20%;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+.jonathan > .name {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+
+.jonathan > .graduate {
+  display: block;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.jonathan > .firstp {
+  margin-top: 0px;
+  font-size: 26px;
+  font-weight: 800;
+}
+.jonathan > .secondp {
+  font-size: 15px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,29 @@
+.kira {
+  color: black;
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+  position: absolute;
+  left: 81%;
+  right: 2%;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+
+.kira > .name {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.kira > .graduate {
+  display: block;
+  margin-top: 0px;
+}
+.kira > .firstp {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.kira > .secondp {
+  font-size: 13px;
+}

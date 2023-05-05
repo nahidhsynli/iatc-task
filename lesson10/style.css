@@ -1,0 +1,25 @@
+@import url(jonathan.css);
+@import url(daniel.css);
+@import url(jeanette.css);
+@import url(patrick.css);
+@import url(kira.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b1afaf;
+  font-family: "Neue Machina", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  border-radius: 50%;
+  display: inline-block;
+}

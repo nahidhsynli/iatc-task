@@ -1,0 +1,42 @@
+.daniel {
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(192, 1, 255, 1) 0%,
+    rgba(157, 28, 255, 1) 2%,
+    rgba(182, 3, 252, 1) 9%,
+    rgba(170, 6, 248, 1) 20%,
+    rgba(30, 36, 205, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 20px;
+  padding: 15px;
+  position: absolute;
+  left: 5%;
+  right: 45%;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+img {
+  border-radius: 50%;
+  display: inline-block;
+}
+.daniel > .name {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.daniel > .graduate {
+  display: block;
+  margin-top: 0px;
+}
+.daniel > .firstp {
+  margin-top: 0px;
+  font-size: 23px;
+  font-weight: 800;
+}
+.daniel > .secondp {
+  font-size: 14px;
+}

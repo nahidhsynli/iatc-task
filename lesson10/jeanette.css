@@ -1,0 +1,34 @@
+.jeanette {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 15px;
+  position: absolute;
+  top: 210%;
+  left: 5%;
+  right: 70%;
+  margin: 0 auto;
+  margin-top: 35%;
+}
+
+.jeanette > .name {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+
+.jeanette > .graduate {
+  display: block;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.jeanette > .firstp {
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.jeanette > .secondp {
+  font-size: 15px;
+  margin-bottom: 0px;
+}

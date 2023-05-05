@@ -1,0 +1,33 @@
+.patrick {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 15px;
+  position: absolute;
+  top: 21%;
+  left: 32%;
+  right: 20%;
+  margin: 0 auto;
+  margin-top: 37%;
+}
+
+.patrick > .name {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.patrick > .graduate {
+  display: block;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.patrick > .firstp {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.patrick > .secondp {
+  font-size: 15px;
+}
