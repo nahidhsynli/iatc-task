@@ -1,0 +1,62 @@
+footer {
+  background: #9eabb2;
+  mix-blend-mode: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerlist > img {
+  width: 55px;
+  height: 55px;
+  margin-top: 25px;
+}
+.footerlist {
+  left: 165px;
+  top: 3810px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerlist > ul > li {
+  list-style-type: none;
+  color: #4c545c;
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+}
+
+.footerlist > ul {
+  margin-left: 139px;
+  margin-bottom: 39px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 12px;
+  column-gap: 30px;
+  left: 165px;
+  top: 3810px;
+}
+
+footer > .socials {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 1555px;
+  top: 3810px;
+  margin: 24px;
+}
+.footerlist > ul > li > a {
+  text-decoration: none;
+  color: #4c545c;
+}
+
+.footerlist > ul > li > a:hover {
+  color: #26bba4;
+}
