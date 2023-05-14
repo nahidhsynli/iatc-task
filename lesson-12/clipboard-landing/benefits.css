@@ -1,0 +1,38 @@
+.benefits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.benefits > div {
+  width: 350px;
+  margin: 30px;
+}
+
+.benefits > div > h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 16px;
+  font-family: "Bai Jamjuree SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+}
+
+.benefits > div > p {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.12px;
+
+  color: #9eabb2;
+}

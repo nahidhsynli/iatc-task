@@ -1,0 +1,59 @@
+@media (max-width: 800px) {
+  .container-sm {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 60px;
+  }
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .feature {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .container-md {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .devices {
+    margin: 0 25px;
+  }
+
+  .benefits {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 200px;
+  }
+  .logos {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 57px;
+    margin-left: 350px;
+  }
+
+  .footerlist {
+    top: 5000px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footerlist > img {
+    position: absolute;
+    left: 100px;
+    grid-template-columns: auto;
+  }
+  .footerlist > ul {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  footer > .socials {
+    left: 350px;
+    top: 5214px;
+  }
+}
