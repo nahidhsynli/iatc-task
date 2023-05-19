@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 428px) {
   .hero > .maximize {
     width: 343px;
   }
