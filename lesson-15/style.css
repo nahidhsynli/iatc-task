@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.header > img {
+  object-fit: contain;
+}
+
+.header > .btn-primary {
+  background: #13183f;
+  border-radius: 28px;
+  height: 56px;
+  width: 167px;
+  border-radius: 28px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.hero {
+  display: grid;
+  grid-template-areas: "maximize heroimage";
+  align-items: center;
+  padding: 20px 30px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.hero > .maximize {
+  grid-area: maximize;
+  height: 359px;
+  width: 457px;
+  margin-bottom: 0px;
+}
+.hero > .maximize > h1 {
+  font-family: Plus Jakarta Sans;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 71px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13183f;
+}
+
+.hero > .maximize > p {
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #83869a;
+}
+
+.hero > .maximize > .btn-secondary {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  height: 63px;
+  width: 167px;
+  border-radius: 31.5px;
+  color: #ffffff;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.hero > .heroimage > .image1 {
+  margin: 0;
+  grid-area: heroimage;
+  position: absolute;
+  left: 750px;
+  top: -80px;
+  object-fit: contain;
+}
+
+.hero > .heroimage > .image2 {
+  display: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-areas:
+    "1fr 1fr 1fr"
+    "1fr 1fr 1fr";
+  gap: 30px;
+  margin: 140px 30px;
+}
+
+.cards > .card-1 {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 15px;
+  height: 322px;
+  width: 350px;
+  padding: 64px 32px 138px 32px;
+}
+.cards > .card-1 > h2 {
+  color: #ffffff;
+  font-family: Plus Jakarta Sans;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cards > .card-2 {
+  border-radius: 15px;
+  height: 322px;
+  width: 350px;
+  box-shadow: 0px 25px 50px 0px #06168d0b;
+  padding: 0 32px;
+}
+
+.cards > .card-2 > img {
+  height: 56px;
+  width: 56px;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+.cards > .card-2 > h3 {
+  color: #13183f;
+  height: 30px;
+  width: 121px;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cards > .card-2 > p {
+  color: #83869a;
+  height: 112px;
+  width: 286px;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.cards > .card-2 > a {
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f74780;
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: #13183f;
+}
+
+.footer > img {
+  object-fit: contain;
+}
+
+.footer > .btn-outline-primary {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  border-radius: 28px;
+  height: 56px;
+  width: 167px;
+  border-radius: 28px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
