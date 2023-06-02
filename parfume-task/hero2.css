@@ -1,0 +1,112 @@
+.text-section {
+  position: relative;
+  top: 255px;
+  text-align: right;
+}
+
+.three-image-section {
+  position: absolute;
+  top: 285px;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-section > h2 {
+  color: #015e6b;
+}
+
+.all-text-section {
+  background-color: #015e6b;
+}
+
+.bestseller-product-3 {
+  margin: 30px;
+  margin-top: 100px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  padding: 15px;
+  position: relative;
+  top: 3700px;
+  z-index: 1;
+}
+
+.bestseller-product-3 > h2 {
+  color: #015e6b;
+}
+
+.bestseller-product-3 > .parfume-cards {
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.testimonals {
+  position: relative;
+  top: 1700px;
+}
+
+.testimonals > .testimonals-text > h2 {
+  color: #015e6b;
+}
+
+.testimonals-container {
+  margin: 10px;
+  padding: 10px;
+}
+
+.testimonals-container > .container-1 {
+  background-color: #d9135a;
+  color: white;
+}
+.testimonals-container > .container-sm {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.bottom-testimonals {
+  background: url("https://cdn.shopify.com/s/files/1/0618/3518/2257/files/custom-banner.png?v=1666083396");
+  background-repeat: no-repeat;
+  top: 1800px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.about-the-blog {
+  z-index: 0;
+  top: 1650px;
+  background-color: #015e6b;
+}
+
+.about-the-blog > .about-blog-text {
+  padding-top: 220px;
+  color: white;
+}
+.about-the-blog > .about-blog-text > p {
+  padding: 0 20%;
+}
+
+.about-container > .container-sm {
+  background-color: white;
+  margin-bottom: 100px;
+  padding: 0;
+}
+.about-container > .container-sm > .btn-primary {
+  background-color: #d9135a;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.about-container > .container-sm > .article {
+  position: absolute;
+  background-color: #015e6b;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 2px 10px;
+  margin: 15px;
+}

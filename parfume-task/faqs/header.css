@@ -1,0 +1,157 @@
+.announce-header {
+  background-color: #f1f1f1;
+  padding: 10px 20px 1px 15px;
+  font-size: 15px;
+  transition: all ease-in-out 0.5s;
+}
+
+.navigation-bar {
+  padding: 10px 0;
+  background: transparent;
+  transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
+  z-index: 5;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
+
+.navigation-bar > .container > .navigation-row > .logo {
+  max-width: 105px;
+  margin-right: 42px;
+}
+
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-logos
+  > a
+  > i {
+  position: relative;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 18px;
+}
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-logos
+  > a:nth-child(3) {
+  border-radius: 30px;
+  padding: 0 23px;
+  margin-left: 10px;
+}
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-logos
+  > a
+  > i
+  > .red-circle {
+  position: absolute;
+  top: 11px;
+  left: 22px;
+  height: 15px;
+  width: 15px;
+  font-size: 9px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.navigation-bar > .container > .navigation-row > .nav-items > .nav-logos > a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+.navigation-bar > .container > .navigation-row > .nav-items > .nav-links > a,
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-links
+  div
+  > a {
+  text-decoration: none;
+  padding-left: 12px;
+  font-weight: 200;
+}
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-links
+  > .pages-link
+  > .menu-dropdown
+  > ul
+  > li
+  > a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-links
+  > a:nth-child(1) {
+  border-radius: 16px;
+  padding: 12px 20px;
+  font-weight: 700;
+}
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-links
+  > a
+  > img {
+  height: 18px;
+  width: 16px;
+  padding-bottom: 2px;
+}
+.navigation-bar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav-links > div > .menu-dropdown {
+  position: absolute;
+  top: 100%;
+  color: black;
+  box-shadow: 0 10px 40px #0000000d;
+  opacity: 0;
+  visibility: hidden;
+  min-width: 220px;
+  z-index: 2;
+  padding: 20px;
+  transition: all ease-in-out 0.3s;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.nav-links > div:hover > .menu-dropdown {
+  color: white;
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+  color: white;
+}
+
+.navigation-bar,
+.hero {
+  background: url(images/blog-banner.webp);
+}
+
+.hero {
+  background-position-y: 8%;
+}

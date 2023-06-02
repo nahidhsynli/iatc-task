@@ -1,0 +1,20 @@
+.faqs-hero {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: #015e6b;
+}
+
+.accordion {
+  display: grid;
+  grid-template-areas: "1fr 1fr 1fr";
+  padding: 50px;
+  gap: 30px;
+}
+
+
+h4{
+    padding: 30px 30px 0 30px;
+    color: #015e6b;
+}

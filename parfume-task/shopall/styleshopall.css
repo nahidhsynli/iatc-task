@@ -1,0 +1,70 @@
+.announce-header {
+  background-color: #f1f1f1;
+  padding: 10px 20px 1px 15px;
+  font-size: 15px;
+}
+
+.menu-navbar-right {
+  margin-left: 350px;
+}
+
+.logo-navbar {
+  margin-left: 0px;
+}
+
+.pages:active {
+  transition: all 0.3s ease-in-out;
+}
+
+.shop-all-hero > h2 {
+  color: #015e6b;
+}
+
+.parfume-container {
+  display: grid;
+  grid-template-areas:
+    "1fr 1fr 1fr 1fr"
+    "1fr 1fr 1fr 1fr";
+  gap: 30px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.container-sm > a > img {
+  width: 224px;
+  height: 224px;
+  border: 2px solid #f1f1f1;
+  box-shadow: #f1f1f1;
+}
+
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footer-socials > .social-icons > li > a > img {
+  background: #d9135a;
+}
+
+.input-field > input {
+  padding: 15px 60px 15px 15px;
+  border-radius: 20px;
+  border: 1px solid #d9135a;
+}
+
+.input-field > button {
+  left: 95%;
+  bottom: 45%;
+  background-color: #d9135a;
+  padding: 2px;
+  border-radius: 8px;
+  border: solid #d9135a;
+}
+
+.footer > .footer-2 {
+  margin-left: 0;
+}
+
+.footer > .footer-1 {
+  margin-right: 0;
+  width: 30%;
+}

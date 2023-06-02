@@ -1,0 +1,306 @@
+.announce-header {
+  background-color: #f1f1f1;
+  padding: 10px 20px 1px 15px;
+  font-size: 15px;
+  transition: all ease-in-out 0.5s;
+}
+
+.navigation-bar {
+  padding: 10px 0;
+  background: transparent;
+  transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
+  z-index: 5;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
+
+.navigation-bar > .container > .navigation-row > .logo {
+  max-width: 105px;
+  margin-right: 42px;
+}
+
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-logos
+  > a
+  > i {
+  position: relative;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 18px;
+}
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-logos
+  > a:nth-child(3) {
+  border-radius: 30px;
+  padding: 0 23px;
+  margin-left: 10px;
+}
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-logos
+  > a
+  > i
+  > .red-circle {
+  position: absolute;
+  top: 11px;
+  left: 22px;
+  height: 15px;
+  width: 15px;
+  font-size: 9px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.navigation-bar > .container > .navigation-row > .nav-items > .nav-logos > a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+.navigation-bar > .container > .navigation-row > .nav-items > .nav-links > a,
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-links
+  div
+  > a {
+  text-decoration: none;
+  padding-left: 12px;
+  font-weight: 200;
+}
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-links
+  > .pages-link
+  > .menu-dropdown
+  > ul
+  > li
+  > a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-links
+  > a:nth-child(1) {
+  border-radius: 16px;
+  padding: 12px 20px;
+  font-weight: 700;
+}
+.navigation-bar
+  > .container
+  > .navigation-row
+  > .nav-items
+  > .nav-links
+  > a
+  > img {
+  height: 18px;
+  width: 16px;
+  padding-bottom: 2px;
+}
+.navigation-bar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav-links > div > .menu-dropdown {
+  position: absolute;
+  top: 100%;
+  color: black;
+  box-shadow: 0 10px 40px #0000000d;
+  opacity: 0;
+  visibility: hidden;
+  min-width: 220px;
+  z-index: 2;
+  padding: 20px;
+  transition: all ease-in-out 0.3s;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.nav-links > div:hover > .menu-dropdown {
+  color: white;
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+  color: white;
+}
+
+.navigation-bar,
+.hero {
+  background: url(images/blog-banner.webp);
+}
+
+.hero {
+  background-position-y: 8%;
+}
+
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footer-socials > .social-icons > li > a > img {
+  background: #d9135a;
+}
+
+.input-field > input {
+  padding: 15px 60px 15px 15px;
+  border-radius: 20px;
+  border: 1px solid #d9135a;
+}
+
+.input-field > button {
+  left: 95%;
+  bottom: 45%;
+  background-color: #d9135a;
+  padding: 2px;
+  border-radius: 8px;
+  border: solid #d9135a;
+}
+
+.footer > .footer-2 {
+  margin-left: 0;
+}
+
+.footer > .footer-1 {
+  margin-right: 0;
+  width: 30%;
+}
+
+.back-to-return {
+  padding: 70px 100px;
+  background-color: #f1f1f1;
+}
+
+.back-to-return > span > svg {
+  border: 1px solid black;
+}
+
+.main-filters {
+  display: grid;
+}
+
+.filters-heading {
+  border-bottom: 1px solid black;
+}
+.filters-heading,
+.availability,
+.price,
+.product-type,
+.brand {
+  border-right: 1px solid black;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.home-heading {
+  column-gap: 25em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.bestseller-product {
+  margin: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+.bestseller-product > .heading {
+  gap: 800px;
+}
+
+.bestseller-product > .heading > h2 {
+  color: #015e6b;
+}
+
+.bestseller-product > .parfume-cards {
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.parfume-cards {
+  display: grid;
+  grid-template-areas: "1fr 1fr 1fr";
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  position: relative;
+}
+
+.parfume-cards > div > .btn-primary {
+  text-transform: uppercase;
+  color: white;
+  background-color: #d9135a;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.parfume-cards > div {
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.product-ml > input {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.product-ml > label {
+  font-size: 12px;
+}
+
+.parfume-cards > div > .btn-primary {
+  text-transform: uppercase;
+  color: white;
+  background-color: #d9135a;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.parfume-cards > div {
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  margin: 10px;
+  padding: 10px;
+}
+
+.parfume-section > .btn-outline-primary {
+  color: white;
+  background-color: #d9135a;
+  padding: 6px 30px;
+}
+
+
+.bottom-testimonals {
+  background: url("https://cdn.shopify.com/s/files/1/0618/3518/2257/files/custom-banner.png?v=1666083396");
+  background-repeat: no-repeat;
+  margin: 0 50px;
+  z-index: 1;
+  
+}

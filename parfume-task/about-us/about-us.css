@@ -1,0 +1,36 @@
+.about-us {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: #015e6b;
+}
+
+.about-our-shop > h1 {
+  padding: 50px 50px 10px 50px;
+}
+
+.about-our-shop-text {
+  padding: 0 50px;
+}
+
+.about-our-shop-2 > .container {
+  display: grid;
+  grid-template-areas:
+    "1fr 1fr "
+    " 1fr 1fr";
+}
+
+.about-our-shop-3 {
+  margin: auto;
+  padding: 0 300px;
+}
+
+.container-sm {
+    margin-bottom: 80px;
+}
+
+.container-sm > .row {
+    border: 1px solid rgba(0, 0, 0, 0.285);
+}
+

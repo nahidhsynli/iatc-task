@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="//cdn.shopify.com/s/files/1/0618/3518/2257/files/favicon.png?crop=center&amp;height=32&amp;v=1665991059&amp;width=32"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="contact-us.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script>
+      document.addEventListener("scroll", (event) => {
+        const scrollTop =
+          document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop > 0) {
+          document.getElementById("navigation-bar").classList.add("sticky");
+        } else {
+          document.getElementById("navigation-bar").classList.remove("sticky");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div class="announce-header">
+      <p><strong>7 Days A Week</strong> From 9:00 Am To 7:00 Pm</p>
+    </div>
+
+    <div class="navigation-bar" id="navigation-bar">
+      <div class="container">
+        <div class="navigation-row d-flex align-items-center">
+          <div class="logo col">
+            <a href="#">
+              <img src="images/logo_100x.webp" alt="logo parfume" />
+            </a>
+          </div>
+          <div
+            class="nav-items col d-flex align-items-center justify-content-between pt-2"
+          >
+            <div class="nav-links d-flex align-items-center">
+              <a href="#">Parfume</a>
+              <a href="shopall/shopall.html">Shop All</a>
+              <div class="pages-link">
+                <a href="#"> Pages</a>
+                <div class="menu-dropdown">
+                  <ul>
+                    <li>
+                      <a href="about-us/about-us.html">About us </a>
+                    </li>
+
+                    <li>
+                      <a href="faqs/faqs.html">faqs </a>
+                    </li>
+
+                    <li>
+                      <a href="contact-us/contact-us.html">Contact us </a>
+                    </li>
+
+                    <li>
+                      <a href="#">Article page </a>
+                    </li>
+
+                    <li>
+                      <a href="shopall/shopall.html">Collection List </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pages-link">
+                <a href="#">Services</a>
+                <div class="menu-dropdown">
+                  <ul>
+                    <li class="">
+                      <a href="about-us/about-us.html">About us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="contact-us/contact-us.html">Contact Us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Privacy Policy </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Wishlist </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Delivery Information </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="nav-right-right">
+              <a href="#">img</a>
+              <a href="#">img</a>
+              <a href="#">Cart: 0 Items </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-us p-5">
+      <div class="contact-us-text">
+        <h1>Contact Us</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown.
+        </p>
+      </div>
+    </div>
+
+    <div class="contact-form p-3 m-">
+      <h1 class="fw-light"><strong>Contact</strong> form</h1>
+      <div class="main-form gap-4 p-3">
+        <div class="first-name">
+          <label for="first-name">First Name</label> <br />
+          <input
+            class="p-2"
+            type="text"
+            name="first-name"
+            id="first-name "
+            placeholder="First Name"
+          />
+        </div>
+        <div class="last-name">
+          <label for="last-name">Last Name</label> <br />
+          <input
+            class="p-2"
+            type="text"
+            name="last-name"
+            id="last-name "
+            placeholder="Last Name"
+          />
+        </div>
+        <div class="email">
+          <label for="email">Email</label> <br />
+          <input
+            class="p-2"
+            type="email"
+            name="email"
+            id="email "
+            placeholder="shop@company.com"
+          />
+        </div>
+        <div class="phone-number">
+          <label for="phone-number">Phone number</label> <br />
+          <input
+            class="p-2"
+            type="tel"
+            name="phone-number"
+            id="phone-number "
+            placeholder="Phone number"
+          />
+        </div>
+      </div>
+      <div class="description p-3">
+        <label for="description">Description:</label> <br />
+        <textarea
+          class="p-2"
+          name="description"
+          id="description"
+          placeholder="How can we help?"
+          cols="60"
+          rows="10"
+        ></textarea>
+      </div>
+      <div
+        class="agreement d-flex p-3 justify-content-between align-content-center"
+      >
+        <div class="agreement-left">
+          <input type="checkbox" name="agreement" id="agreement" />
+          <label for="agreement"
+            >I have read and agree to
+            <a class="fw-bold text-decoration-underline" href="#"
+              >the Terms & Conditions.</a
+            >
+          </label>
+        </div>
+        <div class="agreement-right">
+          <button class="btn btn-primary">
+            Send Message
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="15"
+              viewBox="0 0 16 15"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.22466 5.62411C8.87997 5.64249 8.58565 5.37796 8.56728 5.03327C8.5422 4.56284 8.51152 4.19025 8.48081 3.89909C8.43958 3.50807 8.19939 3.27049 7.85391 3.23099C7.35787 3.17429 6.60723 3.125 5.49957 3.125C4.39192 3.125 3.64128 3.17429 3.14524 3.23099C2.79917 3.27055 2.55966 3.50754 2.51845 3.89797C2.44629 4.58174 2.37457 5.71203 2.37457 7.5C2.37457 9.28797 2.44629 10.4183 2.51845 11.102C2.55966 11.4925 2.79917 11.7294 3.14524 11.769C3.64128 11.8257 4.39192 11.875 5.49957 11.875C6.60723 11.875 7.35787 11.8257 7.85391 11.769C8.19939 11.7295 8.43958 11.4919 8.48081 11.1009C8.51152 10.8098 8.5422 10.4372 8.56728 9.96673C8.58565 9.62204 8.87997 9.35751 9.22466 9.37589C9.56935 9.39426 9.83388 9.68858 9.8155 10.0333C9.78942 10.5225 9.75716 10.9168 9.72392 11.232C9.62607 12.1598 8.96789 12.8998 7.99588 13.0109C7.4419 13.0742 6.64237 13.125 5.49957 13.125C4.35677 13.125 3.55725 13.0742 3.00327 13.0109C2.03184 12.8999 1.37333 12.1616 1.27536 11.2332C1.19744 10.495 1.12457 9.31924 1.12457 7.5C1.12457 5.68076 1.19744 4.50504 1.27536 3.76677C1.37333 2.83844 2.03184 2.10013 3.00327 1.98908C3.55725 1.92575 4.35677 1.875 5.49957 1.875C6.64237 1.875 7.4419 1.92575 7.99588 1.98908C8.96789 2.1002 9.62607 2.84023 9.72392 3.76798C9.75716 4.08316 9.78942 4.47745 9.8155 4.96673C9.83388 5.31142 9.56935 5.60574 9.22466 5.62411Z"
+                fill="black"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.6206 5.75444C11.3765 5.51036 11.3765 5.11464 11.6206 4.87056C11.8646 4.62648 12.2604 4.62648 12.5044 4.87056L14.6919 7.05806C14.936 7.30214 14.936 7.69786 14.6919 7.94194L12.5044 10.1294C12.2604 10.3735 11.8646 10.3735 11.6206 10.1294C11.3765 9.88536 11.3765 9.48964 11.6206 9.24556L12.7411 8.125L6.75 8.125C6.40482 8.125 6.125 7.84518 6.125 7.5C6.125 7.15482 6.40482 6.875 6.75 6.875L12.7411 6.875L11.6206 5.75444Z"
+                fill="black"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-adress p-5 d-flex">
+      <div class="call-email">
+        <div class="call-us">
+          <p>Call us</p>
+          <h4>+48 0021-32-12</h4>
+        </div>
+        <div class="email">
+          <p>Email:</p>
+          <h4>shop@company.com</h4>
+        </div>
+      </div>
+      <div class="adress">
+        <p>Adress:</p>
+        <p>1093 Marigold Lane, Coral Way, Miami, Florida, 33169</p>
+      </div>
+    </div>
+
+    <div class="footer gap-5 d-flex position-relative p-4">
+      <div class="footer-1">
+        <a href="#">
+          <img
+            width="117px"
+            height="30px"
+            src="//cdn.shopify.com/s/files/1/0618/3518/2257/files/logo_100x.png?v=1665991133"
+            loading="lazy"
+            alt="Scent Workdo"
+          />
+        </a>
+        <p class="pt-4 w-50 fs-6">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <div class="footer-socials d-flex">
+          <ul class="social-icons d-flex gap-2 p-0">
+            <li>
+              <a href="https://twitter.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/twitter.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://facebook.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/messanger.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="http://instagram.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/instagram.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/youtube.svg?v=1667199894"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-2 w-25">
+        <h4 class="pb-2">NAVIGATION:</h4>
+        <div class="footer-2">
+          <a href="#" class="d-block fs-6 pb-2">Nike Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Roses Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Body Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Cacharel Parfume</a>
+        </div>
+      </div>
+      <div class="footer-3">
+        <h4 class="pb-2">ABOUT US:</h4>
+        <div class="footer-2">
+          <a href="#" class="d-block fs-6 pb-2">Parfumes</a>
+          <a href="#" class="d-block fs-6 pb-2">Brands</a>
+          <a href="#" class="d-block fs-6 pb-2">Shop</a>
+          <a href="#" class="d-block fs-6 pb-2">Bestsellers</a>
+        </div>
+      </div>
+      <div class="footer-4">
+        <h4 class="fw-lighter">
+          Subscribe to <br />
+          <div class="fw-semibold mb-3">Newsletter</div>
+        </h4>
+        <div class="input-field">
+          <input
+            class="position-absolute"
+            type="email"
+            id="email"
+            placeholder="Enter email adress..."
+          />
+          <button
+            class="position-absolute"
+            type="submit"
+            value="email"
+            id="email"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M4.97863e-08 9.99986C-7.09728e-06 10.4601 0.373083 10.8332 0.83332 10.8332L17.113 10.8335L15.1548 12.7358C14.8247 13.0565 14.817 13.584 15.1377 13.9142C15.4584 14.2443 15.986 14.2519 16.3161 13.9312L19.7474 10.5979C19.9089 10.441 20.0001 10.2254 20.0001 10.0002C20.0001 9.77496 19.9089 9.55935 19.7474 9.40244L16.3161 6.0691C15.986 5.74841 15.4584 5.75605 15.1377 6.08617C14.817 6.41628 14.8247 6.94387 15.1548 7.26456L17.1129 9.1668L0.833346 9.16654C0.373109 9.16653 7.24653e-06 9.53962 4.97863e-08 9.99986Z"
+                fill="#183A40"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

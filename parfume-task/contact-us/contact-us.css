@@ -1,0 +1,45 @@
+body {
+  position: relative;
+}
+
+.contact-us {
+  background-color: #f1f1f1;
+}
+
+.contact-us-text {
+  width: 40%;
+}
+
+h1 {
+  color: #015e6b;
+}
+
+.main-form {
+  display: grid;
+  grid-template-areas:
+    "1fr 1fr "
+    "1fr 1fr";
+}
+
+.btn-primary {
+  background-color: #d9135a;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  border: 1px solid black;
+  z-index: 1;
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
+
+.contact-adress {
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-areas:
+    "1fr 1fr"
+    "1fr";
+}

@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scent Workdo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="//cdn.shopify.com/s/files/1/0618/3518/2257/files/favicon.png?crop=center&amp;height=32&amp;v=1665991059&amp;width=32"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="hero2.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script>
+      document.addEventListener("scroll", (event) => {
+        const scrollTop =
+          document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop > 0) {
+          document.getElementById("navigation-bar").classList.add("sticky");
+        } else {
+          document.getElementById("navigation-bar").classList.remove("sticky");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div class="announce-header">
+      <p><strong>7 Days A Week</strong> From 9:00 Am To 7:00 Pm</p>
+    </div>
+
+    <div class="navigation-bar" id="navigation-bar">
+      <div class="container">
+        <div class="navigation-row d-flex align-items-center">
+          <div class="logo col">
+            <a href="#">
+              <img src="images/logo_100x.webp" alt="logo parfume" />
+            </a>
+          </div>
+          <div
+            class="nav-items col d-flex align-items-center justify-content-between pt-2"
+          >
+            <div class="nav-links d-flex align-items-center">
+              <a href="#">Parfume</a>
+              <a href="shopall/shopall.html">Shop All</a>
+              <div class="pages-link">
+                <a href="#"> Pages</a>
+                <div class="menu-dropdown">
+                  <ul>
+                    <li>
+                      <a href="about-us/about-us.html">About us </a>
+                    </li>
+
+                    <li>
+                      <a href="faqs/faqs.html">faqs </a>
+                    </li>
+
+                    <li>
+                      <a href="contact-us/contact-us.html">Contact us </a>
+                    </li>
+
+                    <li>
+                      <a href="#">Article page </a>
+                    </li>
+
+                    <li>
+                      <a href="shopall/shopall.html">Collection List </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pages-link">
+                <a href="#">Services</a>
+                <div class="menu-dropdown">
+                  <ul>
+                    <li class="">
+                      <a href="about-us/about-us.html">About us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="contact-us/contact-us.html">Contact Us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Privacy Policy </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Wishlist </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Delivery Information </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="nav-right-right">
+              <a href="#">img</a>
+              <a href="#">img</a>
+              <a href="#">Cart: 0 Items </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-left w-50 pt-6 p-4">
+        <h5 class="pb-3">Welcome to our store</h5>
+        <h2 class="">Fall in love with <strong>amazing aromas</strong></h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis
+          magnam harum deserunt, aperiam laboriosam quibusdam hic placeat
+          possimus.
+        </p>
+      </div>
+      <div class="hero-buttons mb-3 d-flex gap-4">
+        <button class="btn btn-primary rounded-5">
+          <a href="#">Go to Shop</a>
+        </button>
+        <button class="btn btn-secondary rounded-5">
+          <a style="color: white" href="engage-doe/engagedoe.html">Show more products</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="bestseller-product">
+      <h2>Bestseller Product</h2>
+      <div class="parfume-section text-end fs-6 m-0">
+        <a href="#">Fragnances</a>
+        <a href="#">Shop</a>
+      </div>
+      <div class="parfume-cards d-flex gap-1 text-center">
+        <div class="good-vibes">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/4_d6b0cb09-4f19-45ae-ac87-a11ea3ead3b6_600x600.jpg?v=1653115476"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+          /></a>
+          <h4>Good vibes only perfume</h4>
+          <p>Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$299.00</p>
+            <p
+              class="d-inline text-decoration-line-through"
+              style="color: #015e6b"
+            >
+              $550.00
+            </p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class="" type="radio" name="ml" id="ml" />
+            <label for="ml">30 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">45 ml</label>
+            <input type="radio" name="m3" id="ml" />
+            <label for="m2">80 ml</label>
+          </div>
+          <a class="btn btn-primary" href="#">Add To Cart:</a>
+        </div>
+
+        <div class="park-avenue">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/1_6625a4af-ee40-4f76-91ad-84e1041fe354_600x600.png?v=1666009677"
+              alt="park avenue"
+              width="231px"
+              height="173px"
+          /></a>
+          <h4>Park Avenue Parfume Spray</h4>
+          <p>Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$299.00</p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class type="radio" name="ml" id="ml" />
+            <label for="ml">50ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">80ml</label>
+          </div>
+          <a class="btn btn-primary" href="#">Add To Cart:</a>
+        </div>
+        <div class="jaguar-spray">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/Senora3-removebg-preview_600x600.png?v=1666009548"
+              alt="jaguar spray"
+              width="231px"
+              height="173px"
+          /></a>
+          <h4>Jaguar for men deodorant spray</h4>
+          <p>Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$599.00</p>
+            <p
+              class="d-inline text-decoration-line-through"
+              style="color: #015e6b"
+            >
+              $699.00
+            </p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class type="radio" name="ml" id="ml" />
+            <label for="ml">60ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">100ml</label>
+          </div>
+          <a class="btn btn-primary" href="#">Add To Cart:</a>
+        </div>
+        <div class="farzad-body">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/1_600x600.png?v=1666009428"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+              class="mb-2"
+          /></a>
+          <h4>Farzad Body Spray</h4>
+          <p class="mb-4">Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$599.00</p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class type="radio" name="ml" id="ml" />
+            <label for="ml">50 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">100 ml</label>
+          </div>
+          <a class="btn btn-primary mt-2" href="#">Add To Cart:</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-hero d-flex mt-lg-5 m-2 p-2">
+      <div class="bottom-hero-left w-60 p-0">
+        <h2 class="fw-lighter">
+          Fall in love with <br />
+          <div class="fw-semibold mb-3">amazing aromas</div>
+        </h2>
+        <p class="w-75">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magnam
+          vitae nesciunt repellendus illo itaque nam vero, beatae architecto
+          quia cum ducimus hic, inventore, neque soluta ab alias nemo? Sequi.
+        </p>
+        <p>Select Scent:</p>
+        <div class="select-scent d-flex gap-3">
+          <a href="#" class="btn btn-primary">Deo</a>
+          <a href="#" class="btn btn-primary">Room Freshner</a>
+          <a href="#" class="btn btn-primary">Body Sprey</a>
+        </div>
+      </div>
+      <div class="bottom-hero-right">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/product-banner-right.png?v=1666241864"
+          alt="hero-right"
+        />
+      </div>
+    </div>
+
+    <div class="man-woman mt-5 d-flex">
+      <div class="mans-special">
+        <h2>Fall in love with amazing aromas</h2>
+        <div class="mans-flex p-2 d-flex">
+          <div class="mans-flex-left">
+            <img
+              class="rounded-4"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/article-blog-1.png?v=1666156210"
+              alt="manphoto"
+              width="285px"
+              height="450px"
+            />
+          </div>
+          <div class="mans-flex-right align-self-center p-4">
+            <h3>Mans Special</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy.
+            </p>
+            <a class="btn btn-primary rounded-4" href="#">Show More</a>
+          </div>
+        </div>
+      </div>
+      <div class="women-special d-flex">
+        <div class="women-flex p-2 d-flex">
+          <div class="women-flex-left">
+            <img
+              class="rounded-4"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/article-blog-3.png?v=1666156302"
+              alt="manphoto"
+              width="285px"
+              height="450px"
+            />
+          </div>
+          <div class="women-flex-right align-self-center p-4">
+            <h3>Women Special</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy.
+            </p>
+            <a class="btn btn-primary rounded-4" href="#">Show More</a>
+          </div>
+        </div>
+        <div class="show-more d-flex gap-3 mb-4">
+          <h3>Show more Products</h3>
+          <a href="#" class="btn btn-secondary rounded-5">Go To Collections</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bestseller-product-2">
+      <h2>Top Products</h2>
+      <div class="parfume-section text-end fs-6 m-0">
+        <a href="#" class="btn btn-outline-primary rounded-4">Go To Shop</a>
+      </div>
+      <div class="parfume-section text-end fs-6 m-0"></div>
+      <div class="parfume-cards d-flex gap-1 text-center">
+        <div class="good-vibes">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/1_f2218e3c-cfe6-4c27-9ff4-c93d2e75c6f0_600x600.png?v=1666009589"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+          /></a>
+          <h4>Kelyn Eau De Parfum Combo For Men</h4>
+          <p>Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$349.00</p>
+            <p
+              class="d-inline text-decoration-line-through"
+              style="color: #015e6b"
+            >
+              $500.00
+            </p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class="" type="radio" name="ml" id="ml" />
+            <label for="ml">60 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">150 ml</label>
+          </div>
+          <a class="btn btn-primary" href="#">Add To Cart:</a>
+        </div>
+
+        <div class="good-vibes">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/4_d6b0cb09-4f19-45ae-ac87-a11ea3ead3b6_600x600.jpg?v=1653115476"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+          /></a>
+          <h4>Good vibes only perfume</h4>
+          <p>Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$299.00</p>
+            <p
+              class="d-inline text-decoration-line-through"
+              style="color: #015e6b"
+            >
+              $550.00
+            </p>
+          </div>
+          <div class="product-ml mt-3 d-flex">
+            <input class="" type="radio" name="ml" id="ml" />
+            <label for="ml">30 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">45 ml</label>
+            <input type="radio" name="m3" id="ml" />
+            <label for="m2">80 ml</label>
+          </div>
+          <a class="btn btn-primary" href="#">Add To Cart:</a>
+        </div>
+        <div class="farzad-body">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/1_600x600.png?v=1666009428"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+              class="mb-2"
+          /></a>
+          <h4>Farzad Body Sprey</h4>
+          <p class="mb-4">Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$599.00</p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class type="radio" name="ml" id="ml" />
+            <label for="ml">50 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">100 ml</label>
+          </div>
+          <a class="btn btn-primary mt-2" href="#">Add To Cart:</a>
+        </div>
+        <div class="farzad-body">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/4_2823e6ff-5e6e-405a-abb4-37f76ed88c54_600x600.jpg?v=1653115308"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+              class="mb-2"
+          /></a>
+          <h4>Very Vanilla Perfume</h4>
+          <p class="mb-4">Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$599.00</p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class type="radio" name="ml" id="ml" />
+            <label for="ml">50 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">100 ml</label>
+          </div>
+          <a class="btn btn-primary mt-2" href="#">Add To Cart:</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="topproducts-bottom">
+      <div class="topproducts-bottom-left w-75">
+        <h2 class="fw-lighter">
+          Fall in love with <br />
+          <div class="fw-semibold mb-3">amazing aromas</div>
+        </h2>
+        <p class="w-75">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magnam
+          vitae nesciunt repellendus illo itaque nam vero, beatae architecto
+          quia cum ducimus hic, inventore, neque soluta ab alias nemo? Sequi.
+        </p>
+      </div>
+    </div>
+
+    <div class="text-section">
+      <h2 class="fw-lighter">
+        Fall in love with <br />
+        <div class="fw-semibold mb-3">amazing aromas</div>
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolor
+        error nobis nesciunt reiciendis est tenetur.
+      </p>
+    </div>
+    <div class="text-three-image-section position-relative">
+      <div class="three-image-section d-flex w-100 gap-3">
+        <div class="man-section">
+          <div class="man-image-section">
+            <img
+              class="rounded-top-4"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/article-blog-1.png?v=1666156210"
+              alt=""
+              width="370px"
+              height="500px"
+            />
+          </div>
+          <div class="all-text-section text-start p-3 rounded-bottom-4">
+            <h2 class="fw-lighter">
+              Fall in love with <br />
+              <div class="fw-semibold mb-3">amazing aromas</div>
+            </h2>
+            <a class="text-decoration-underline" href="#">Show more</a>
+          </div>
+        </div>
+        <div class="man2-section">
+          <div class="all-text-section text-start p-3 rounded-top-4">
+            <h2 class="fw-lighter">
+              Fall in love with <br />
+              <div class="fw-semibold mb-3">amazing aromas</div>
+            </h2>
+            <a class="text-decoration-underline" href="#">Show more</a>
+          </div>
+          <div class="man2-image-section">
+            <img
+              class="rounded-bottom-4"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/article-blog-2.png?v=1666156277"
+              alt=""
+              width="370px"
+              height="500px"
+            />
+          </div>
+        </div>
+        <div class="woman-section">
+          <div class="woman-image-section">
+            <img
+              class="rounded-top-4"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/article-blog-3.png?v=1666156302"
+              alt=""
+              width="370px"
+              height="500px"
+            />
+          </div>
+          <div class="all-text-section text-start p-3 rounded-bottom-4">
+            <h2 class="fw-lighter">
+              Fall in love with <br />
+              <div class="fw-semibold mb-3">amazing aromas</div>
+            </h2>
+            <a class="text-decoration-underline" href="#">Show more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bestseller-product-3 position-absolute">
+      <h2>Fall In Love with amazing aromas</h2>
+      <div class="parfume-section text-end fs-6 m-0">
+        <a href="#" class="btn btn-outline-primary rounded-4">Go To Shop</a>
+      </div>
+      <div class="parfume-section text-end fs-6 m-0"></div>
+      <div class="parfume-cards d-flex gap-1 text-center">
+        <div class="good-vibes">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/1_f2218e3c-cfe6-4c27-9ff4-c93d2e75c6f0_600x600.png?v=1666009589"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+          /></a>
+          <h4>Kelyn Eau De Parfum Combo For Men</h4>
+          <p>Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$349.00</p>
+            <p
+              class="d-inline text-decoration-line-through"
+              style="color: #015e6b"
+            >
+              $500.00
+            </p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class="" type="radio" name="ml" id="ml" />
+            <label for="ml">60 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">150 ml</label>
+          </div>
+          <a class="btn btn-primary" href="#">Add To Cart:</a>
+        </div>
+
+        <div class="good-vibes">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/4_d6b0cb09-4f19-45ae-ac87-a11ea3ead3b6_600x600.jpg?v=1653115476"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+          /></a>
+          <h4>Good vibes only perfume</h4>
+          <p>Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$299.00</p>
+            <p
+              class="d-inline text-decoration-line-through"
+              style="color: #015e6b"
+            >
+              $550.00
+            </p>
+          </div>
+          <div class="product-ml mt-3 d-flex">
+            <input class="" type="radio" name="ml" id="ml" />
+            <label for="ml">30 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">45 ml</label>
+            <input type="radio" name="m3" id="ml" />
+            <label for="m2">80 ml</label>
+          </div>
+          <a class="btn btn-primary" href="#">Add To Cart:</a>
+        </div>
+        <div class="farzad-body">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/1_600x600.png?v=1666009428"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+              class="mb-2"
+          /></a>
+          <h4>Farzad Body Sprey</h4>
+          <p class="mb-4">Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$599.00</p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class type="radio" name="ml" id="ml" />
+            <label for="ml">50 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">100 ml</label>
+          </div>
+          <a class="btn btn-primary mt-2" href="#">Add To Cart:</a>
+        </div>
+        <div class="farzad-body">
+          <a href="#"
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/products/4_2823e6ff-5e6e-405a-abb4-37f76ed88c54_600x600.jpg?v=1653115308"
+              alt="good vibes"
+              width="231px"
+              height="173px"
+              class="mb-2"
+          /></a>
+          <h4>Very Vanilla Perfume</h4>
+          <p class="mb-4">Scent Workdo</p>
+          <div class="product-cost">
+            <p class="d-inline">$599.00</p>
+          </div>
+          <div class="product-ml mt-3 d-flex gap-3">
+            <input class type="radio" name="ml" id="ml" />
+            <label for="ml">50 ml</label>
+            <input type="radio" name="m2" id="ml" />
+            <label for="m2">100 ml</label>
+          </div>
+          <a class="btn btn-primary mt-2" href="#">Add To Cart:</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonals">
+      <div class="testimonals-text text-center">
+        <h2>Testimonals</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+      </div>
+      <div class="testimonals-container mt-5 d-flex gap-3">
+        <div class="container-1 container-sm text-center rounded-4">
+          <div class="review-img">
+            <img
+              src="images/review.png"
+            />
+
+            <span>4.5 <b> / 5.0 </b></span>
+          </div>
+          <h4>Fantastic!</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, ipsum.
+          </p>
+          <h5>John Doe</h5>
+        </div>
+        <div class="container-2 container-sm text-center">
+          <div class="review-img">
+            <img
+            src="images/review.png"
+            />
+
+            <span>4.5 <b> / 5.0 </b></span>
+          </div>
+          <h4>Fantastic!</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, ipsum.
+          </p>
+          <h5>John Doe</h5>
+        </div>
+        <div class="container-2 container-sm text-center">
+          <div class="review-img">
+            <img
+            src="images/review.png"
+            />
+
+            <span>4.5 <b> / 5.0 </b></span>
+          </div>
+          <h4>Fantastic!</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, ipsum.
+          </p>
+          <h5>John Doe</h5>
+        </div>
+        <div class="container-2 container-sm text-center">
+          <div class="review-img">
+            <img
+            src="images/review.png"
+            />
+
+            <span>4.5 <b> / 5.0 </b></span>
+          </div>
+          <h4>Fantastic!</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, ipsum.
+          </p>
+          <h5>John Doe</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-testimonals position-relative rounded-4 p-4">
+      <h2 class="fw-lighter pt-5">
+        Fall in love with <br />
+        <div class="fw-semibold mb-3">amazing aromas</div>
+      </h2>
+      <p class="w-75">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magnam
+        vitae nesciunt repellendus illo itaque nam vero, beatae architecto quia
+        cum ducimus hic, inventore, neque soluta ab alias nemo? Sequi.
+      </p>
+    </div>
+
+    <div class="about-the-blog position-relative">
+      <div class="about-blog-text text-center">
+        <h2 class="fw-lighter">About <strong>the blog</strong></h2>
+        <p class="pt-3">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est tenetur
+          commodi dolor quaerat eveniet sed. Natus alias sed sequi atque eveniet
+          tenetur nihil nostrum veniam.
+        </p>
+      </div>
+      <div class="about-container d-flex gap-3">
+        <div class="container-sm rounded-3">
+          <p class="article rounded-3">Article</p>
+          <a href="#"
+            ><img
+              class="rounded-top-4 p-0 m-0"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/articles/2_1.jpg?v=1652505483"
+              alt=""
+              width="270px"
+              height="148px"
+          /></a>
+          <p class="pt-2 fw-bold">May 14,2022</p>
+          <a href="#"> <h4>Donec placerat, mistaken idea</h4></a>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+            consectetur.
+          </p>
+          <a href="#" class="btn btn-primary w-100">Read More</a>
+        </div>
+        <div class="container-sm rounded-3">
+          <p class="article rounded-3">Article</p>
+          <a href="#"
+            ><img
+              class="rounded-top-4"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/articles/1_1.jpg?v=1652505415"
+              alt=""
+              width="270px"
+              height="148px"
+          /></a>
+          <p class="pt-2 fw-bold">May 14,2022</p>
+          <a href="#"> <h4>Donec placerat, mistaken idea</h4></a>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+            consectetur.
+          </p>
+          <a href="#" class="btn btn-primary w-100">Read More</a>
+        </div>
+        <div class="container-sm rounded-3">
+          <p class="article rounded-3">Article</p>
+          <a href="#"
+            ><img
+              class="rounded-top-4"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/articles/3_1.jpg?v=1652505368"
+              alt=""
+              width="270px"
+              height="148px"
+          /></a>
+          <p class="pt-2 fw-bold">May 14,2022</p>
+          <a href="#"> <h4>Donec placerat, mistaken idea</h4></a>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+            consectetur.
+          </p>
+          <a href="#" class="btn btn-primary w-100">Read More</a>
+        </div>
+        <div class="container-sm rounded-3">
+          <p class="article rounded-3">Article</p>
+          <a href="#"
+            ><img
+              class="rounded-top-4"
+              src="https://cdn.shopify.com/s/files/1/0618/3518/2257/articles/4_1.jpg?v=1652505325"
+              alt=""
+              width="270px"
+              height="148px"
+          /></a>
+          <p class="pt-2 fw-bold">May 14,2022</p>
+          <a href="#"> <h4>Donec placerat, mistaken idea</h4></a>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+            consectetur.
+          </p>
+          <a href="#" class="btn btn-primary w-100">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer gap-5 d-flex position-relative p-4">
+      <div class="footer-1">
+        <a href="#">
+          <img
+            width="117px"
+            height="30px"
+            src="images/logo.webp"
+            loading="lazy"
+            alt="Scent Workdo"
+          />
+        </a>
+        <p class="pt-4 w-50 fs-6">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <div class="footer-socials d-flex">
+          <ul class="social-icons d-flex gap-2 p-0">
+            <li>
+              <a href="https://twitter.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/twitter.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://facebook.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/messanger.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="http://instagram.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/instagram.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/youtube.svg?v=1667199894"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-2 w-25">
+        <h4 class="pb-2">NAVIGATION:</h4>
+        <div class="footer-2">
+          <a href="#" class="d-block fs-6 pb-2">Nike Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Roses Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Body Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Cacharel Parfume</a>
+        </div>
+      </div>
+      <div class="footer-3">
+        <h4 class="pb-2">ABOUT US:</h4>
+        <div class="footer-2">
+          <a href="#" class="d-block fs-6 pb-2">Parfumes</a>
+          <a href="#" class="d-block fs-6 pb-2">Brands</a>
+          <a href="#" class="d-block fs-6 pb-2">Shop</a>
+          <a href="#" class="d-block fs-6 pb-2">Bestsellers</a>
+        </div>
+      </div>
+      <div class="footer-4">
+        <h4 class="fw-lighter">
+          Subscribe to <br />
+          <div class="fw-semibold mb-3">Newsletter</div>
+        </h4>
+        <div class="input-field">
+          <input
+            class="position-absolute"
+            type="email"
+            id="email"
+            placeholder="Enter email adress..."
+          />
+          <button
+            class="position-absolute"
+            type="submit"
+            value="email"
+            id="email"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M4.97863e-08 9.99986C-7.09728e-06 10.4601 0.373083 10.8332 0.83332 10.8332L17.113 10.8335L15.1548 12.7358C14.8247 13.0565 14.817 13.584 15.1377 13.9142C15.4584 14.2443 15.986 14.2519 16.3161 13.9312L19.7474 10.5979C19.9089 10.441 20.0001 10.2254 20.0001 10.0002C20.0001 9.77496 19.9089 9.55935 19.7474 9.40244L16.3161 6.0691C15.986 5.74841 15.4584 5.75605 15.1377 6.08617C14.817 6.41628 14.8247 6.94387 15.1548 7.26456L17.1129 9.1668L0.833346 9.16654C0.373109 9.16653 7.24653e-06 9.53962 4.97863e-08 9.99986Z"
+                fill="#183A40"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

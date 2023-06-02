@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="//cdn.shopify.com/s/files/1/0618/3518/2257/files/favicon.png?crop=center&amp;height=32&amp;v=1665991059&amp;width=32"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="faqs.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+    <script>
+      document.addEventListener("scroll", (event) => {
+        const scrollTop =
+          document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop > 0) {
+          document.getElementById("navigation-bar").classList.add("sticky");
+        } else {
+          document.getElementById("navigation-bar").classList.remove("sticky");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div class="announce-header">
+      <p><strong>7 Days A Week</strong> From 9:00 Am To 7:00 Pm</p>
+    </div>
+
+    <div class="navigation-bar" id="navigation-bar">
+      <div class="container">
+        <div class="navigation-row d-flex align-items-center">
+          <div class="logo col">
+            <a href="#">
+              <img src="images/logo_100x.webp" alt="logo parfume" />
+            </a>
+          </div>
+          <div
+            class="nav-items col d-flex align-items-center justify-content-between pt-2"
+          >
+            <div class="nav-links d-flex align-items-center">
+              <a href="#">Parfume</a>
+              <a href="shopall/shopall.html">Shop All</a>
+              <div class="pages-link">
+                <a href="#"> Pages</a>
+                <div class="menu-dropdown">
+                  <ul>
+                    <li>
+                      <a href="about-us/about-us.html">About us </a>
+                    </li>
+
+                    <li>
+                      <a href="faqs/faqs.html">faqs </a>
+                    </li>
+
+                    <li>
+                      <a href="contact-us/contact-us.html">Contact us </a>
+                    </li>
+
+                    <li>
+                      <a href="#">Article page </a>
+                    </li>
+
+                    <li>
+                      <a href="shopall/shopall.html">Collection List </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pages-link">
+                <a href="#">Services</a>
+                <div class="menu-dropdown">
+                  <ul>
+                    <li class="">
+                      <a href="about-us/about-us.html">About us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="contact-us/contact-us.html">Contact Us </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Privacy Policy </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Wishlist </a>
+                    </li>
+
+                    <li class="">
+                      <a href="#">Delivery Information </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="nav-right-right">
+              <a href="#">img</a>
+              <a href="#">img</a>
+              <a href="#">Cart: 0 Items </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="faqs-hero p-5">
+      <div class="faqs-hero-text w-50">
+        <h1>FAQs</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown.
+        </p>
+      </div>
+    </div>
+
+    <!-- <div class="accordion  gap-3" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header " id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="true"
+            aria-controls="collapseTwo"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              By creating an account you will be able to shop faster, be up to
+              date on an order's status, and keep track of the orders you have
+              previously made.By creating an account you will be able to shop
+              faster, be up to date on an order's status, and keep track of the
+              orders you have previously made.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <h4>About Shop</h4>
+    <div
+      class="accordion container gap-2 mt-0"
+      id="accordionPanelsStayOpenExample"
+    >
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne"
+            aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingOne"
+        >
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is
+            shown by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFour"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFour"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFour"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFive"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFive"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseFive"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFive"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseSix"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseSix"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseSix"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingSix"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseSeven"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseSevem"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseSeven"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingSeven"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseEight"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseEight"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseEight"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingEight"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item col-12">
+        <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseNine"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseNine"
+          >
+            How to setup a page with custom fields?
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseNine"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingNine"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer gap-5 d-flex position-relative p-4">
+      <div class="footer-1">
+        <a href="#">
+          <img
+            width="117px"
+            height="30px"
+            src="//cdn.shopify.com/s/files/1/0618/3518/2257/files/logo_100x.png?v=1665991133"
+            loading="lazy"
+            alt="Scent Workdo"
+          />
+        </a>
+        <p class="pt-4 w-50 fs-6">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <div class="footer-socials d-flex">
+          <ul class="social-icons d-flex gap-2 p-0">
+            <li>
+              <a href="https://twitter.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/twitter.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://facebook.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/messanger.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="http://instagram.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/instagram.svg?v=1667199894"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/shopify" target="_blank">
+                <img
+                  class="rounded-1"
+                  width="28px"
+                  height="28px"
+                  src="https://cdn.shopify.com/s/files/1/0618/3518/2257/files/youtube.svg?v=1667199894"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-2 w-25">
+        <h4 class="pb-2">NAVIGATION:</h4>
+        <div class="footer-2">
+          <a href="#" class="d-block fs-6 pb-2">Nike Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Roses Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Body Parfume</a>
+          <a href="#" class="d-block fs-6 pb-2">Cacharel Parfume</a>
+        </div>
+      </div>
+      <div class="footer-3">
+        <h4 class="pb-2">ABOUT US:</h4>
+        <div class="footer-2">
+          <a href="#" class="d-block fs-6 pb-2">Parfumes</a>
+          <a href="#" class="d-block fs-6 pb-2">Brands</a>
+          <a href="#" class="d-block fs-6 pb-2">Shop</a>
+          <a href="#" class="d-block fs-6 pb-2">Bestsellers</a>
+        </div>
+      </div>
+      <div class="footer-4">
+        <h4 class="fw-lighter">
+          Subscribe to <br />
+          <div class="fw-semibold mb-3">Newsletter</div>
+        </h4>
+        <div class="input-field">
+          <input
+            class="position-absolute"
+            type="email"
+            id="email"
+            placeholder="Enter email adress..."
+          />
+          <button
+            class="position-absolute"
+            type="submit"
+            value="email"
+            id="email"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M4.97863e-08 9.99986C-7.09728e-06 10.4601 0.373083 10.8332 0.83332 10.8332L17.113 10.8335L15.1548 12.7358C14.8247 13.0565 14.817 13.584 15.1377 13.9142C15.4584 14.2443 15.986 14.2519 16.3161 13.9312L19.7474 10.5979C19.9089 10.441 20.0001 10.2254 20.0001 10.0002C20.0001 9.77496 19.9089 9.55935 19.7474 9.40244L16.3161 6.0691C15.986 5.74841 15.4584 5.75605 15.1377 6.08617C14.817 6.41628 14.8247 6.94387 15.1548 7.26456L17.1129 9.1668L0.833346 9.16654C0.373109 9.16653 7.24653e-06 9.53962 4.97863e-08 9.99986Z"
+                fill="#183A40"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

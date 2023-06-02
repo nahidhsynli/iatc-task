@@ -1,0 +1,136 @@
+.hero {
+  color: white;
+  
+}
+
+.hero > .hero-buttons {
+  margin-left: 30px;
+}
+.hero > .hero-buttons > .btn-primary {
+  border: 1px solid white;
+  background-color: white;
+  padding: 8px 30px;
+}
+
+.hero > .hero-buttons > .btn-secondary {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 8px 30px;
+}
+
+.bestseller-product {
+  margin: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.bestseller-product > .parfume-cards {
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.bestseller-product-2 {
+  margin: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.bestseller-product-2 > .parfume-cards {
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.product-ml > input {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.product-ml > label {
+  font-size: 12px;
+}
+
+.parfume-cards > div > .btn-primary {
+  text-transform: uppercase;
+  color: white;
+  background-color: #d9135a;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.parfume-cards > div {
+  border: 1px solid rgba(0, 0, 0, 0.196);
+  margin: 10px;
+  padding: 10px;
+}
+
+.bottom-hero > .bottom-hero-left > .select-scent > a {
+  border: 1px solid #d9135a;
+  background-color: white;
+  padding: 5px 25px;
+  border-radius: 20px;
+  color: #d9135a;
+  font-weight: 700;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.bottom-hero > .bottom-hero-left > h2 {
+  color: #015e6b;
+}
+
+.man-woman {
+  background: linear-gradient(180deg, #015e6b 96%, #ffffff00 0%);
+  color: white;
+  padding: 40px 10px;
+}
+
+.women-special {
+  flex-direction: column;
+}
+
+.show-more > .btn-secondary {
+  padding: 5px 30px;
+  color: black;
+  background-color: white;
+}
+
+.mans-flex-right > .btn-primary {
+  background: #d9135a;
+  color: white;
+  padding: 8px 30px;
+}
+
+.women-flex-right > .btn-primary {
+  background: #d9135a;
+  color: white;
+  padding: 8px 30px;
+}
+
+.parfume-section > .btn-outline-primary {
+  color: white;
+  background-color: #d9135a;
+  padding: 6px 30px;
+}
+
+.topproducts-bottom {
+  top: 2400px;
+  position: absolute;
+  padding: 150px 30px 80px 30px;
+  color: white;
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/3518/2257/files/banner-2.png?v=1666078399);
+  background-position: center;
+}
