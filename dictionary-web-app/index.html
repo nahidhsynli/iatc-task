@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <script
+      src="https://kit.fontawesome.com/2eb8bd0a18.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <a href="index.html" class="header__link"
+          ><img
+            src="assets/images/logo.svg"
+            alt="Dictionary Web App home"
+            class="header__logo" 
+        /></a>
+        <div class="header__alternatives-container">
+          <div class="header__font-selector">
+            <p class="header__current-font">Sans Serif</p>
+            <button class="header__show-fonts-btn">
+              <svg
+                class="header__arrow-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="8"
+                viewBox="0 0 14 8"
+                aria-labelledby="show-fonts"
+                role="img"
+              >
+                <title id="show-fonts">Choose font</title>
+                <path
+                  fill="none"
+                  stroke="#A445ED"
+                  stroke-width="1.5"
+                  d="m1 1 6 6 6-6"
+                />
+              </svg>
+            </button>
+            <div class="header__font-card hidden">
+              <button
+                type="button"
+                class="header__font-btn header__font-btn--sans"
+                id="sans-btn"
+              >
+                Sans Serif
+              </button>
+              <button
+                type="button"
+                class="header__font-btn header__font-btn--serif"
+                id="serif-btn"
+              >
+                Serif
+              </button>
+              <button
+                type="button"
+                class="header__font-btn header__font-btn--mono"
+                id="mono-btn"
+              >
+                Mono
+              </button>
+            </div>
+          </div>
+          <div class="header__mode-selector">
+            <div class="header__switch-container">
+              <input type="checkbox" id="check" class="header__checkbox" />
+              <label for="check" class="header__switch"></label>
+            </div>
+            <svg
+              class="header__moon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 22 22"
+              aria-hidden="true"
+              role="img"
+            >
+              <path
+                fill="none"
+                stroke="#838383"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M1 10.449a10.544 10.544 0 0 0 19.993 4.686C11.544 15.135 6.858 10.448 6.858 1A10.545 10.545 0 0 0 1 10.449Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </header>
+      <main>
+        <form class="form">
+          <div class="form__container">
+            <input
+              class="form__input"
+              type="text"
+              name="query"
+              id="query"
+              placeholder="Search for any word..."
+            />
+            <button class="form__submit-btn">
+              <svg
+                class="form__search-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                aria-labelledby="submit"
+                role="img"
+              >
+                <title id="submit">Submit</title>
+                <path
+                  fill="none"
+                  stroke="#A445ED"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="m12.663 12.663 3.887 3.887M1 7.664a6.665 6.665 0 1 0 13.33 0 6.665 6.665 0 0 0-13.33 0Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </form>
+        <article class="dictionary">
+          <section class="word">
+            <div class="word__container">
+              <h1 class="word__search-term">Welcome!</h1>
+              <p class="word__phonetic">/ˈwɛlkəm/</p>
+            </div>
+            <button type="button" class="word__play-btn" id="play-btn" disabled>
+              <audio src="" id="audio"></audio>
+              <svg
+                class="word__play-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="75"
+                height="75"
+                viewBox="0 0 75 75"
+                aria-labelledby="play"
+                role="img"
+              >
+                <title id="play">Play</title>
+                <g fill="#A445ED" fill-rule="evenodd">
+                  <circle cx="37.5" cy="37.5" r="37.5" opacity=".25" />
+                  <path d="M29 27v21l21-10.5z" />
+                </g>
+              </svg>
+            </button>
+        </article>
+      </main>
+    </div>
+    <script src="js/script.js" defer></script>
+    <title>Dictionary Web App</title>
+  </body>
+</html>
